@@ -1,0 +1,15 @@
+firstname = input("enter first name:\n")
+surname = input("enter surname:\n")
+type = input("Please input if you are a teacher or student (t/s): ")
+
+if type == "t":
+  lensur = len(surname)
+  lastthree = surname[lensur - 3:lensur]
+  firsttwo = firstname[0:2]
+  teausername = lastthree+firsttwo
+  print(teausername)
+else:
+  firstthreesf = firstname[0:3]
+  firsttwoss = surname[0:2]
+  stuusername = firstthreesf + firsttwoss 
+  print(stuusername)
