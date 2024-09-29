@@ -1,1 +1,1 @@
-FEEL FREE TO IMPROVE THE CODE PLEASE
+Improvements and contributions are accepted.
